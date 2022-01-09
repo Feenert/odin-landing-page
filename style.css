@@ -5,6 +5,9 @@ html, body{
 body{
     margin: 0;
     padding: 0;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
 }
 
 a{
@@ -16,20 +19,18 @@ ul{
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 10px
-}
-
-.header-text{
-    justify-content: center;
+    gap: 10px;
+    margin-right: 40px;
 }
 
 #logo{
     color: #483248;
-    padding-left: 10px;
+    margin-left: 40px;
 }
 
-#picture-header, .header-text, .hero-text, 
-.header, .hero, .info, .qoute, .footer, #cta-button, .cta {
+body, #picture-header, .hero-text, 
+.header, .hero, .info, .qoute, .footer,
+ #cta-button, .cta {
     display: flex;
 }
 
@@ -43,7 +44,7 @@ ul{
 .hero, .cta{
     background-color: #93C572;
     justify-content: center;
-    gap: 40px;
+    gap: 150px;
     padding: 50px;
 }
 
@@ -99,10 +100,13 @@ button{
 }
 
 .cta{
-    margin: 50px;
-    justify-content: space-between;
+    background-color: #2E8B57;
+    margin: 50px auto;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
+    max-width: 75%;
+    gap: 300px;
 }
 
 #cta-button{
@@ -113,4 +117,14 @@ button{
 h2, #cta-p{
     margin-bottom: 0px;
     margin-top: 0;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    background-color: #93C572;
+}
+
+.cta-text {
+    color: #431C53;
 }
