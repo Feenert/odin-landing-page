@@ -74,4 +74,22 @@ button{
 .picture-info{
     max-width: 150px;
     max-height: 205px;
+    margin-bottom: 40px;
+}
+
+.qoute{
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+}
+
+#author{
+    font-weight: 900;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+#qoute-text{
+    font-size: 28px;
+    width: 50%;
 }
