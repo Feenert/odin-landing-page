@@ -1,0 +1,36 @@
+html, body{
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #483248;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px
+}
+
+#logo{
+    color: #483248;
+    padding-left: 10px;
+}
+
+.header, .hero, .info, .qoute, .footer {
+    display: flex;
+}
+
+.header {
+    background-color: #93C572;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+}
