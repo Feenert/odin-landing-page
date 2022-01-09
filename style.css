@@ -19,12 +19,17 @@ ul{
     gap: 10px
 }
 
+.header-text{
+    justify-content: center;
+}
+
 #logo{
     color: #483248;
     padding-left: 10px;
 }
 
-.hero-text, .header, .hero, .info, .qoute, .footer {
+#picture-header, .header-text, .hero-text, 
+.header, .hero, .info, .qoute, .footer {
     display: flex;
 }
 
@@ -52,4 +57,21 @@ ul{
 
 button{
     max-width: 100px;
+}
+
+#picture-header{
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.picture-info{
+    max-width: 150px;
+    max-height: 205px;
 }
