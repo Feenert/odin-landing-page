@@ -24,7 +24,7 @@ ul{
     padding-left: 10px;
 }
 
-.header, .hero, .info, .qoute, .footer {
+.hero-text, .header, .hero, .info, .qoute, .footer {
     display: flex;
 }
 
@@ -33,4 +33,23 @@ ul{
     justify-content: space-between;
     margin: 0;
     align-items: center;
+}
+
+.hero{
+    background-color: #93C572;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.hero-text{
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: center;
+    color: #483248
+}
+
+button{
+    max-width: 100px;
 }
